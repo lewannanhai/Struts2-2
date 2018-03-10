@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<package name="default" namespace="/" extends="struts-default">
+
+<action name="first" class="com.yunsuan" method="execute">
+
+
+<result name="1">/result.jsp</result>
+<result name="2">/result.jsp</result>
+<result name="3">/result.jsp</result>
+<result name="4">/result.jsp</result>
+<result name="5">/error.jsp</result>
+<!-- <result name="2">/noMessage.jsp</result> -->
+
+</action>
+
+
+
+</package>
+</struts>     
